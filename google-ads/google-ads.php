@@ -40,15 +40,15 @@ class Google_Ads extends WP_Widget
   <?php
   ?>
   <p>
-    <label for="<?php echo esc_attr($this->get_field_id('title')); ?>"><?php _e('Pub code', 'kodywig'); ?></label>
+    <label for="<?php echo esc_attr($this->get_field_id('title')); ?>"><?php _e('Pub code', 'googleadsWG'); ?></label>
     <input class="widefat" id="<?php echo esc_attr($this->get_field_id('title')); ?>" name="<?php echo esc_attr($this->get_field_name('title')); ?>" type="text" value="<?php echo esc_attr($title); ?>" />
   </p>
   <p>
-    <label for="<?php echo esc_attr($this->get_field_id('slot')); ?>"><?php _e('Slot code', 'kodywig'); ?></label>
+    <label for="<?php echo esc_attr($this->get_field_id('slot')); ?>"><?php _e('Slot code', 'googleadsWG'); ?></label>
     <input class="widefat" id="<?php echo esc_attr($this->get_field_id('slot')); ?>" name="<?php echo esc_attr($this->get_field_name('slot')); ?>" type="text" value="<?php echo esc_attr($slot); ?>" />
   </p>
   <p>
-    <label for="<?php echo $this->get_field_id('select'); ?>"><?php _e('Select Ads Size', 'kodywig'); ?></label>
+    <label for="<?php echo $this->get_field_id('select'); ?>"><?php _e('Select Ads Size', 'googleadsWG'); ?></label>
     <select name="<?php echo $this->get_field_name('select'); ?>" id="<?php echo $this->get_field_id('select'); ?>" class="widefat">
       <?php
       // Your options array
@@ -90,12 +90,12 @@ class Google_Ads extends WP_Widget
     </select>
   </p>
   <p>
-    <label for="<?php echo esc_attr($this->get_field_id('text')); ?>"><?php _e('Style for Ads e.g "<small>width: 250px; height:250px;</small>"', 'kodywig'); ?></label>
+    <label for="<?php echo esc_attr($this->get_field_id('text')); ?>"><?php _e('Style for Ads e.g "<small>width: 250px; height:250px;</small>"', 'googleadsWG'); ?></label>
     <input class="widefat" id="<?php echo esc_attr($this->get_field_id('text')); ?>" name="<?php echo esc_attr($this->get_field_name('text')); ?>" type="text" value="<?php echo esc_attr($text); ?>" />
   </p>
   <p>
     <input id="<?php echo esc_attr($this->get_field_id('checkbox')); ?>" name="<?php echo esc_attr($this->get_field_name('checkbox')); ?>" type="checkbox" value="1" <?php checked('1', $checkbox); ?> />
-    <label for="<?php echo esc_attr($this->get_field_id('checkbox')); ?>"><?php _e('Responsive Ads', 'kodywig'); ?></label>
+    <label for="<?php echo esc_attr($this->get_field_id('checkbox')); ?>"><?php _e('Responsive Ads', 'googleadsWG'); ?></label>
   </p>
 
 <?php }
