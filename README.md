@@ -1,6 +1,7 @@
 ## Google ads widget
 
 A simple widget for inserting ads into wordpress websites
+This widget is placed just before closing the body and called only once.
 
 ### How to install it?
 
