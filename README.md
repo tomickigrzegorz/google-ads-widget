@@ -15,7 +15,7 @@ You can move it to the place where you want to display the ad.
 
 Take a look at the graphic below, explain everything.
 
-![Example](https://github.com/tomik23/google-ads-widget/blob/master/google-ads-widget.png)
+![Example](https://github.com/tomik23/google-ads-widget/blob/master/google-widget.png)
 
 ### Supported available ads
 
