@@ -18,7 +18,7 @@ Take a look at the graphic below, explain everything.
 
 ![Example](https://github.com/tomik23/google-ads-widget/blob/master/google-widget.png)
 
-### Supported available ads
+### Supported ads
 
 120 x 240  
 120 x 600  
